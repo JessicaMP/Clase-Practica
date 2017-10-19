@@ -1,0 +1,19 @@
+body {
+  width: 484px;
+  height: 431px;
+  box-sizing: border-box;
+  border: 1px black solid;
+
+}
+
+.summary {
+  height: 31px;
+  background-color: #ffc107;
+  text-align: center;
+  border: 1px black solid;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
+}
