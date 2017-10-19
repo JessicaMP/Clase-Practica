@@ -1,42 +1,60 @@
-
-body p {
-background: #8cb27c;
-height: 376px;
+.soccer-field-big {
+background-color: #8cb27c;
+height: 380px;
 width: 761px;
 box-sizing: border-box;
 color: transparent;
-position: absolute;
-left: 50vh;
-top: 15vh;
+position: relative;
 }
-
-body p + p {
+.soccer-field-middle {
   background: #8cb27c;
   height: 353px;
   width: 734px;
   box-sizing: border-box;
   color: transparent;
-  position: relative;
-  top: 16.9vh;
-  left: 50.8vh;
   border: 4px white solid;
+  position: absolute;
+  right: 13.5px;
+  bottom: 13.5px;
 }
-div {
+
+.left {
   background: #8cb27c;
   height: 153px;
   width: 82px;
   box-sizing: border-box;
   color: transparent;
-  position: relative;
-  left: 50.8vh;
-  top: -30vh;
   border: 4px white solid;
+  position: absolute;
+  bottom: 100px;
+  left: -4px;
 }
-.right-box {
-  position: relative;
-  left: 161.8vh;
-  top: -56vh;
+.right {
+  background: #8cb27c;
+  height: 153px;
+  width: 82px;
+  box-sizing: border-box;
+  color: transparent;
+  border: 4px white solid;
+  position: absolute;
+  bottom: 100px;
+  right: -4px;
 }
+.circule{
+     width: 161px;
+     height: 154px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #8cb27c;
+     border: 3px white solid;
+     box-sizing: border-box;
+     position: absolute;
+     bottom: 100px;
+     right: 190px;
+}
+/*
+
 .circule{
      width: 161px;
      height: 154px;
@@ -92,4 +110,4 @@ div {
   left: 15vh;
   width: 11px;
   height: 11px;
-}
+}*/

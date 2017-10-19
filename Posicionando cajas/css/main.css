@@ -1,12 +1,15 @@
-body{
-  display: block;
+body {
+  width: 100vh;
+  height: 100vh;
 }
+
 .box-red {
   background-color: #ff0000;
   width: 300px;
   height: 300px;
   box-sizing: border-box;
   margin: 10px;
+  position: relative;
 }
 
 .box-purple {
@@ -14,10 +17,11 @@ body{
   width: 150px;
   height: 150px;
   box-sizing: border-box;
-  position: relative;
-  bottom: 39.8vh;
-  left: 14.7vh;
+  position: absolute;
   margin: 0px;
+  bottom: 75px;
+  left: 75px;
+
 }
 
 .box-yellow {
@@ -25,10 +29,6 @@ body{
   width: 76px;
   height: 76px;
   box-sizing: border-box;
-  position: relative;
-  bottom: 65.3vh;
-  left: 14.7vh;
-  margin: 0px;
 }
 
 .box-blue {
@@ -37,6 +37,7 @@ body{
   height: 300px;
   box-sizing: border-box;
   margin: 10px;
+  position: relative;
 }
 
 .box-green {
@@ -44,10 +45,10 @@ body{
   width: 150px;
   height: 150px;
   box-sizing: border-box;
-  position: relative;
-  bottom: 39.8vh;
-  left: 14.7vh;
+  position: absolute;
   margin: 0px;
+  bottom: 75px;
+  left: 75px;
 }
 
 .box-black {
@@ -55,8 +56,6 @@ body{
   width: 76px;
   height: 76px;
   box-sizing: border-box;
-  position: relative;
-  bottom: 78.3vh;
-  left: 1.7vh;
+  position: absolute;
   margin: 0px;
 }
