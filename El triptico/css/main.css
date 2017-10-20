@@ -1,19 +1,38 @@
-body {
-  width: 484px;
-  height: 431px;
-  box-sizing: border-box;
+.summary{
+  display: inline-block;
+  width: 535px;
+  height: 475px;
   border: 1px black solid;
-
 }
 
-.summary {
-  height: 31px;
+.t-body thead :first-child {
   background-color: #ffc107;
-  text-align: center;
-  border: 1px black solid;
+  border: 1px solid black;
+}
+.t-foot :first-child {
+  background-color: #ffc107;
+  border: 1px solid black;
+}
+p {
+    font-size: 14px;
+    text-align: justify;
+    padding: 15px;
 }
 
-p {
-    font-size: 15px;
-    text-align: justify;
+#uno{
+  border: 0px solid red;
+}
+
+#si {
+  border: 3px solid green;
+  width: 237;
+  padding: 18px;
+}
+
+#si p {
+
+}
+
+.bol {
+  width: 149;
 }
